@@ -1,0 +1,12 @@
+1-)Önelikle http://localhost:8080/login bu adrese postman'den POST methoduyla aşağıdaki JSON ile istekte bulunuyoruz.
+
+{
+    "userName":"furkan",
+    "password":"123456"
+}
+
+2-)Body altında bize gelen response ile şimdi http://localhost:8080/message url'ne GET methodu ile istek atacağız.İstek atmadan once
+Authorization tabının altında Type'ı Bearer Token seçip kopyaladğımız response'u buraya kopyalıyoruz.Daha sonra GET
+methodu ile istekte bulnuyoruz.
+
+
